@@ -1,0 +1,174 @@
+:root {
+    --padding: 40px;
+    --color: white;
+    --bgcolor: #2e80fa;
+    --margin: 5px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(1stbg.jpg);
+    
+}
+
+#nav {
+    padding-top: 50px;
+    /* justify-content: space-between; */
+    position: sticky;
+    top: 0%;
+    background-color: transparent;
+}
+
+.name {
+    color: #f3ae81;
+    margin: 0% 75% 0% 5%;
+}
+
+.firstcon {
+    background-repeat: repeat;
+    height: 678px;
+
+}
+
+.container1 {
+    display: flex;
+    margin: 20px 50px 20px 50px;
+    justify-content: space-between;
+}
+
+@media (max-width:650px) {
+
+    .container1 {
+        margin: 0px;
+
+    }
+
+    .writting {
+        width: 200px;
+    }
+
+    .name {
+        margin: 0% 5% 0% 1%;
+    }
+
+
+}
+
+.writting {
+    width: 400px;
+}
+
+.writting h1 {
+    color: #f3ae81;
+    padding: 60px 0px 10px 150px;
+}
+
+.writting p {
+    color: white;
+    font-size: large;
+    padding-left: 100px;
+}
+
+.img {
+    margin: 50px 250px 0px 0px;
+    box-shadow: inset;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+.endingoffirstcon {
+    display: flex;
+    width: 700px;
+    margin: 50px;
+    color: #f3ae81;
+    font-size: small;
+}
+
+.stend {
+    padding: 10px;
+
+}
+
+.ndend {
+    padding: 10px;
+}
+
+.secondcon {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    color: var(--color);
+    background-image: url(2ndbg.jpg);
+    height: 720px;
+}
+
+.one {
+    height: 300px;
+    width: 300px;
+    background-color: var(--bgcolor);
+    margin: var(--margin);
+    padding: var(--padding);
+    color: var(--color);
+    border-radius: 10px;
+    font-size: small;
+}
+
+.one:hover {
+    transition: all 2s ease;
+    border-radius: 19px;
+    background-color: #2f6bb9;
+    font-size: large;
+    height: 400px;
+    width: 300px;
+}
+
+@media(max-width:1000px) {
+    .secondcon {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(max-width:800px) {
+    .secondcon {
+        grid-template-columns: auto;
+    }
+}
+
+.thirdcon {
+    text-align: center;
+    color: #f3ae81;
+    background-image: url(4thbg.jpg);
+    height: 678px;
+}
+
+.mainobj {
+    padding-top: 10%;
+}
+
+.workbtns {
+    margin: 50px;
+}
+
+.forthcon{
+    text-align: center;
+    color: #f3ae81;
+    height: 400px;
+    background-color: #0e3970;
+}
+
+.context h2, p{
+    font-size: x-large;
+}
+
+
+.form{
+    margin-left: 30%;
+}
+
+.message{
+    margin-top: 10px;
+    margin-left: 30%;
+}

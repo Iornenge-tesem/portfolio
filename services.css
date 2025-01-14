@@ -1,0 +1,42 @@
+:root{
+    --padding: 40px;
+    --color: white;
+    --bgcolor:#2e80fa; 
+    --margin: 5px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.secondcon{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    color: var(--color);
+}
+.one{
+    height: 115px;
+    width: 300px;
+    background-color: var(--bgcolor);
+    margin: var(--margin);
+    padding: var(--padding);
+    color: var(--color);
+    border-radius: 10px;
+}
+.one:hover{
+    transition: all 2s ease;
+    border-radius: 19px;
+    background-color: #2f6bb9;
+    font-size: large;
+}
+@media(max-width:1170px){
+    .secondcon{
+        grid-template-columns: auto auto;
+    }
+}
+@media(max-width:800px){
+    .secondcon{
+        grid-template-columns: auto;
+    }
+}
