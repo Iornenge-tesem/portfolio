@@ -182,6 +182,7 @@ body {
   .secondcon {
     grid-template-columns: auto;
     height: fit-content;
+    width: fit-content;
   }
 
   .one:hover{
