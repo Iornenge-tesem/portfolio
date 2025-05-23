@@ -205,7 +205,8 @@ body {
   .one{
     transition: all 2s ease-in-out;
    border-radius: 19px;
-   background-color: #2f6bb9;
+   
+background-color: #2f6bb9;
    width: 420px;
    height: 250px;
    margin: var(--margin);
